@@ -1,7 +1,7 @@
 function mergeArr(firstArr, secondArr) {
 
     let thirdArr = [];
-    let buff = '';
+    //let buff = '';
 
     for (let i = 0; i < firstArr.length; i++) {
         if (i % 2 === 0) {
@@ -10,14 +10,15 @@ function mergeArr(firstArr, secondArr) {
             thirdArr[i] = firstArr[i] + secondArr[i];
         }
 
-        if (i === firstArr.length - 1) {
+        /*if (i === firstArr.length - 1) {
             buff += thirdArr[i];
         } else {
             buff += thirdArr[i] + ' - ';
-        }
+        }*/
+
     }
 
-    console.log(buff);
+    console.log(thirdArr.join(" - "));
 
 }
 mergeArr(['5', '15', '23', '56', '35'],
