@@ -52,7 +52,7 @@ function arrayManipulator(arrayOfIntegers, commands) {
                     arrayOfIntegers.push(0);
 
                 }
-                for (let i = 0; i < arrayOfIntegers.length - 1; i++) {
+                for (let i = 0; i < arrayOfIntegers.length - 1 ; i++) {
                     let sumOfPairs = arrayOfIntegers[i] + arrayOfIntegers[i + 1];
                     sumOfPairsArr.push(sumOfPairs)
                     i++;

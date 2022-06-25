@@ -1,4 +1,6 @@
-let arr = [3,8,-1,5,2];
-
-let arr1 = arr.slice(7, 10)
-console.log(arr1);
+function test(params) {
+  
+  console.log(params.indexOf(7
+    ));
+}
+test([1, 2, 3])
