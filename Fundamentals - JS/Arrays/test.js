@@ -1,6 +1,5 @@
-function test(params) {
+function test() {
+    
   
-  console.log(params.indexOf(7
-    ));
 }
-test([1, 2, 3])
+test()
